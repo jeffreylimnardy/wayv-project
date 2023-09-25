@@ -1,0 +1,38 @@
+
+.visually-hidden{
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+#header-search {
+    position: relative;
+    top:80px;
+    font-style: italic;
+    font-size: large;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    color: inherit;
+    height: 50px;
+    width: 40vw;
+    overflow: hidden;
+    text-align: center;
+    outline: 1px solid transparent;
+    transition: all 1s ease-in;
+}
+
+#header-search:focus{
+    outline: 1px solid whitesmoke;
+    opacity: 40%;
+}
+
+input::-webkit-input-placeholder {
+    opacity: 0.6;
+    /*Change the opacity between 0 and 1*/
+}

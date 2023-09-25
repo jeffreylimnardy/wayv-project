@@ -1,0 +1,12 @@
+body {
+    background-image: url('/bg-img.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
