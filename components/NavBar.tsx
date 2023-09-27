@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faUser, faBagShopping, faSignOut } from '@fortawesome/free-solid-svg-icons'
 import { useState, useEffect } from 'react';
-import { getProviders, signIn, signOut, useSession } from 'next-auth/react';
+import { getProviders } from 'next-auth/react';
 import Dropdown from './Dropdown';
 
 
@@ -22,7 +22,6 @@ function NavBar() {
         const setUpProviders = async() => {
             const response = await getProviders();
             setProviders(response)
-            console.log(response)
         }
         setUpProviders()
     },[])
