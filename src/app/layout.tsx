@@ -2,6 +2,12 @@ import React from 'react';
 import '%styles/globals.css';
 import NavBar from '%components/NavBar';
 import { NextAuthProvider } from '%components/Provider';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Wayv Apparel",
+  description: "Your everyday beach wear."
+}
 
 export default function RootLayout({
   children,
