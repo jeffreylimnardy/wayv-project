@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
-    "paths":{
-      "%*":["./src/*"]
+    "paths": {
+      "%*": [
+        "./src/*"
+      ]
     },
     "lib": [
       "dom",
@@ -29,7 +31,8 @@
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "output/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"
