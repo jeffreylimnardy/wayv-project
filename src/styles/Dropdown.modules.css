@@ -1,12 +1,14 @@
 .dropdown{
     position:absolute;
     top:2.5rem;
-    right:2.5rem;
+    right:3.7rem;
+    text-align: right;
     width: 5vw;
+    /* border: solid 3px black; */
     display: flex;
     flex-direction: column;
     background-color: transparent;
-    padding:1rem 0px 0px 10px;
+    margin:1rem 0px 0px 10px;
     border-radius: 5px;
     line-height: 2rem;
     transition: height 2s ease-in-out;
