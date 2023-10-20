@@ -3,6 +3,7 @@ import '%styles/globals.css';
 import NavBar from '%components/NavBar';
 import { NextAuthProvider } from '%components/Provider';
 import { Metadata } from 'next';
+import { Analytics } from '@vercel/analytics/react'
 
 export const metadata: Metadata = {
   title: "Wayv Apparel",
@@ -25,6 +26,7 @@ export default function RootLayout({
             <NavBar />
           </main>
           {children}
+          <Analytics />
         </body>
       </html>
     </NextAuthProvider>
