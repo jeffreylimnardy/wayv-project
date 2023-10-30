@@ -1,5 +1,7 @@
 # portfolio-react
-Portfolio with React Framework
+Wayv-Project
 
-Building a frontend portfolio page with react.
+Building a front-end webpage for a beachwear apparel brand.
+
+On Progress...
 
